@@ -1,1 +1,0 @@
-from pycrimeprediction import pycrimeprediction
