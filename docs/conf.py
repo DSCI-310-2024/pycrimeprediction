@@ -7,8 +7,8 @@
 # -- Project information -----------------------------------------------------
 
 project = u"pycrimeprediction"
-copyright = u"2024, Ekenny02"
-author = u"Ekenny02"
+copyright = u"2024, Cassandra Zhang, Pragya Singhal, James He, and Ethan Kenny"
+author = u"Cassandra Zhang, Pragya Singhal, James He, and Ethan Kenny"
 
 # -- General configuration ---------------------------------------------------
 
