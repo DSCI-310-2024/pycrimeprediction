@@ -32,7 +32,7 @@ def read_save_data(input_path: str, output_path: str):
         raise TypeError('both input_path and output_path should be strings')
 
     # Read data from the input path
-    raw_data = pd.read_csv(input_path, parse_dates=['incident_datetime'])
+    raw_data = pd.read_csv(input_path, parse_dates=['incident_datetime'], date_format='%Y-%m-%d %H:%M:%S')
     
     # Save the data to the output path
     raw_data.to_csv(output_path, index=False)

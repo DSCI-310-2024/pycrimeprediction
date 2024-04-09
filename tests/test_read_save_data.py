@@ -1,10 +1,8 @@
 import pandas as pd
 import pytest
-import sys
 import os
 
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from src.pycrimeprediction.read_save_data import read_save_data
+from pycrimeprediction.read_save_data import read_save_data
 
 # valid url and output path test
 valid_input_path_1 = 'tests/testdata/test_raw_data.csv'

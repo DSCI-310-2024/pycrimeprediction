@@ -5,12 +5,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.dummy import DummyClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import cross_validate
-import sys
-import os
 
-
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from src.pycrimeprediction.perform_analysis import perform_analysis  
+from pycrimeprediction.perform_analysis import perform_analysis
 
 # Test data
 iris_data = load_iris(return_X_y=True)

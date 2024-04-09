@@ -1,9 +1,5 @@
 import pytest
-import sys
-import os
-
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from src.pycrimeprediction.time_period import get_time_period
+from pycrimeprediction.time_period import get_time_period
 
 # morning test
 h1_m = 6
