@@ -1,4 +1,5 @@
 # pycrimeprediction
+[![codecov](https://codecov.io/gh/DSCI-310-2024/pycrimeprediction/graph/badge.svg?token=GA8l3cBDjy)](https://codecov.io/gh/DSCI-310-2024/pycrimeprediction)
 
 ```pycrimeprediction``` is DSCI 301 Group 10's Python package for loading, analyzing, and saving data related to crime rates
 
