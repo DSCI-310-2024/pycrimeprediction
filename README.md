@@ -2,8 +2,6 @@
 
 ```pycrimeprediction``` is DSCI 301 Group 10's Python package for loading, analyzing, and saving data related to crime rates
 
-group 10 description
-
 ## Installation
 
 ```bash
