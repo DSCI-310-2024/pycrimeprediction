@@ -16,7 +16,7 @@ Below is a usage example of two of our functions:
 
 ```python
 from pycrimeprediction.read_save_data import read_save_data
-from pycrimeprediction.add_if_crime import add_if_crime_feature
+from pycrimeprediction.perform_analysis import perform_analysis
 
 input_path = "url-for-data.csv"
 output_path = "saved-data-to-file.csv"
