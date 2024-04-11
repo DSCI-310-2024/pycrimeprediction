@@ -3,6 +3,10 @@
 
 ```pycrimeprediction``` is DSCI 301 Group 10's Python package for loading, analyzing, and saving data related to crime rates
 
+## Why our packages: 
+1. Pandas: The most direct comparison, Pandas provides comprehensive data manipulation capabilities. Our package provides a more sophisticated analytics by extending the functions' abilities. The functions we have in the package can easily import the dataset with a similar format, identify whether the incident is criminal or not, and distinguish the time period.
+2. Scikit-Learn: A powerful tool for machine learning. Unlike Scikit-Learn, which is solely focused on modeling, our package provides tools that assist in the following model results incluidng returning the necessary coefficients of the variables and getting validation scores.
+
 ## Installation
 
 ```bash
