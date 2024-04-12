@@ -1,11 +1,14 @@
 # pycrimeprediction
 [![codecov](https://codecov.io/gh/DSCI-310-2024/pycrimeprediction/graph/badge.svg?token=GA8l3cBDjy)](https://codecov.io/gh/DSCI-310-2024/pycrimeprediction)
 
-```pycrimeprediction``` is DSCI 301 Group 10's Python package for loading, analyzing, and saving data related to crime rates
+```pycrimeprediction``` is the Python package developed by DSCI 301 Group 10. It provides users with the functionality to efficiently load and store dataset files in CSV format using either a URL link or a local file path. Additionally, it offers tools for analyzing crime datasets, particularly those uploaded to the San Francisco Police Department, and performing logistic regression analysis on them.
 
-## Why our packages: 
+Our package is different than many of the other packges that's out there! To name a few, some of the package you might have see or heard before.
 1. Pandas: The most direct comparison, Pandas provides comprehensive data manipulation capabilities. Our package provides a more sophisticated analytics by extending the functions' abilities. The functions we have in the package can easily import the dataset with a similar format, identify whether the incident is criminal or not, and distinguish the time period.
 2. Scikit-Learn: A powerful tool for machine learning. Unlike Scikit-Learn, which is solely focused on modeling, our package provides tools that assist in the following model results incluidng returning the necessary coefficients of the variables and getting validation scores.
+
+   
+Overall, our package streamlines the process by bypassing the need to perform logistic regression manually. When you utilize our package, you can forego the entire logistic regression process and simply import it, enabling you to incorporate other models such as decision trees and SVM RBF for comparison of results.
 
 ## Installation
 
