@@ -32,6 +32,12 @@ def get_time_period(hour:int, minute:int):
     """
     if not isinstance(hour, int) or not isinstance(minute, int):
          raise TypeError('Both hour and minute input should be integer')
+    
+    if hour < 0 or hour > 23:
+        raise ValueError('Hour input should be within the range of 0 to 23.')
+    if minute < 0 or minute > 59:
+        raise ValueError('Minute input should be within the range of 0 to 59.')
+    
     if 0 < hour < 6 or (hour == 6 and minute == 0):
         return 'Late Night'
     elif 6 < hour < 12 or (hour == 6 and minute > 0) or (hour == 12 and minute == 0):
