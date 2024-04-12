@@ -67,4 +67,16 @@ def test_get_time_period_type_error():
     with pytest.raises(TypeError, match=r"Both hour and minute input should be integer"):
         get_time_period(h1_m, 1.2)
 
+# test for out of range and invalid input value in spite of being an integer     
+# (integer but out of range) 
+def test_get_time_period_type_error_out_of_range_hour():
+    with pytest.raises(ValueError, match=r"Hour input should be within range"):
+        get_time_period(-1, m1_m)
+
+def test_get_time_period_type_error_out_of_range_minute():
+    with pytest.raises(ValueError, match=r"Minute input should be within range"):
+        get_time_period(h1_m, -61)
+
+
+
         
